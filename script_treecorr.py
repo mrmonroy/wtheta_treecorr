@@ -67,7 +67,7 @@ if (N1 == N2).all() == True:
 	print ('corr2pt: auto')
 	kk.process(cat1,  num_threads=num_threads)
 else:
-	if systweeights:
+	if systweights:
 		N2 = N2*sw2
 	
 	if scale2 is not None:
