@@ -2,6 +2,7 @@ import numpy as np
 import os
 import healpy as hp
 import healpix_util as hu
+import treecorr
 import sys
 import time
 
